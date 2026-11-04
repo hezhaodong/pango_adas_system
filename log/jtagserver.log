@@ -1,0 +1,512 @@
+[Info] [2026-10-28 18:18:35] /***************************Start jtagserver***************************/
+[Info] [2026-10-28 18:18:35] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-10-28 18:18:35] Version: 146967
+[Debug] [2026-10-28 18:18:40] Add a new user_thread, socket descriptor is 1168 user_thread id is 0000000000007814
+[Debug] [2026-10-28 18:18:40] After adding, map size is : 1
+[Debug] [2026-10-28 18:18:40] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 18:18:40] connection error happens : 1
+[Debug] [2026-10-28 18:18:40] connection state changes : 6 , socket description 1168
+[Warn] [2026-10-28 18:18:40] socket state is ListeningState
+[Debug] [2026-10-28 18:18:40] connection state changes : 0 , socket description 1168
+[Warn] [2026-10-28 18:18:40] socket state is UnconnectedState
+[Debug] [2026-10-28 18:18:40] socket descriptor 1168is about to delete
+[Debug] [2026-10-28 18:18:56] Add a new user_thread, socket descriptor is 1104 user_thread id is 0000000000007814
+[Debug] [2026-10-28 18:18:56] After adding, map size is : 1
+[Debug] [2026-10-28 18:18:56] Add a new user_thread, socket descriptor is 1148 user_thread id is 0000000000007814
+[Debug] [2026-10-28 18:18:56] After adding, map size is : 2
+[Debug] [2026-10-28 18:18:56] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 18:18:56] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 18:18:56] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 18:18:56] _total_bytes_size : 160
+[Debug] [2026-10-28 18:18:56] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 18:18:56] _total_bytes_size : 96
+[Debug] [2026-10-28 18:18:56] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-10-28 18:18:57] cmd operation get_cable_paras releases locker
+[Debug] [2026-10-28 18:18:59] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 18:18:59] _total_bytes_size : 101
+[Debug] [2026-10-28 18:18:59] cmd id :20001cmd name : Open config cable
+[Debug] [2026-10-28 18:18:59] the idcode from the scanning is: 0x20601899
+[Debug] [2026-10-28 18:18:59] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 18:18:59] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 18:18:59] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 18:18:59] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 18:19:00] cmd operation Open config cable releases locker
+[Debug] [2026-10-28 18:19:01] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 18:19:01] _total_bytes_size : 268
+[Debug] [2026-10-28 18:19:01] cmd id :4e22cmd name : Program
+[Debug] [2026-10-28 18:19:02] the idcode from the scanning is: 0x20601899
+[Debug] [2026-10-28 18:19:02] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 18:19:02] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 18:19:02] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 18:19:02] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 18:19:02] begin to read back config registerregAddr is 4
+[Debug] [2026-10-28 18:19:02] progress bar is 6
+[Debug] [2026-10-28 18:19:02] progress bar is 10
+[Debug] [2026-10-28 18:19:02] progress bar is 15
+[Debug] [2026-10-28 18:19:02] progress bar is 20
+[Debug] [2026-10-28 18:19:02] progress bar is 25
+[Debug] [2026-10-28 18:19:02] progress bar is 30
+[Debug] [2026-10-28 18:19:02] progress bar is 35
+[Debug] [2026-10-28 18:19:02] progress bar is 40
+[Debug] [2026-10-28 18:19:02] progress bar is 45
+[Debug] [2026-10-28 18:19:02] progress bar is 50
+[Debug] [2026-10-28 18:19:03] progress bar is 55
+[Debug] [2026-10-28 18:19:03] progress bar is 60
+[Debug] [2026-10-28 18:19:03] progress bar is 65
+[Debug] [2026-10-28 18:19:03] progress bar is 70
+[Debug] [2026-10-28 18:19:03] progress bar is 75
+[Debug] [2026-10-28 18:19:03] progress bar is 80
+[Debug] [2026-10-28 18:19:03] progress bar is 85
+[Debug] [2026-10-28 18:19:03] progress bar is 90
+[Debug] [2026-10-28 18:19:03] progress bar is 95
+[Debug] [2026-10-28 18:19:03] progress bar is 100
+[Debug] [2026-10-28 18:19:03] the value in the status register is :2096288
+[Debug] [2026-10-28 18:19:03] cmd operation Program releases locker
+[Info] [2026-11-1 15:05:58] /***************************Start jtagserver***************************/
+[Info] [2026-11-1 15:05:58] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 15:05:58] Version: 146967
+[Debug] [2026-11-1 15:06:03] Add a new user_thread, socket descriptor is 1152 user_thread id is 0000000000006760
+[Debug] [2026-11-1 15:06:03] After adding, map size is : 1
+[Debug] [2026-11-1 15:06:03] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 15:06:03] connection error happens : 1
+[Debug] [2026-11-1 15:06:03] connection state changes : 6 , socket description 1152
+[Warn] [2026-11-1 15:06:03] socket state is ListeningState
+[Debug] [2026-11-1 15:06:03] connection state changes : 0 , socket description 1152
+[Warn] [2026-11-1 15:06:03] socket state is UnconnectedState
+[Debug] [2026-11-1 15:06:03] socket descriptor 1152is about to delete
+[Debug] [2026-11-1 15:06:19] Add a new user_thread, socket descriptor is 1152 user_thread id is 0000000000006760
+[Debug] [2026-11-1 15:06:19] After adding, map size is : 1
+[Debug] [2026-11-1 15:06:19] Add a new user_thread, socket descriptor is 1124 user_thread id is 0000000000006760
+[Debug] [2026-11-1 15:06:19] After adding, map size is : 2
+[Debug] [2026-11-1 15:06:19] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 15:06:19] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 15:06:19] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 15:06:19] _total_bytes_size : 160
+[Debug] [2026-11-1 15:06:19] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 15:06:19] _total_bytes_size : 96
+[Debug] [2026-11-1 15:06:19] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-11-1 15:06:20] cmd operation get_cable_paras releases locker
+[Debug] [2026-11-1 15:06:22] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 15:06:22] _total_bytes_size : 101
+[Debug] [2026-11-1 15:06:22] cmd id :20001cmd name : Open config cable
+[Debug] [2026-11-1 15:06:22] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 15:06:22] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 15:06:22] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 15:06:22] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 15:06:22] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 15:06:22] cmd operation Open config cable releases locker
+[Debug] [2026-11-1 15:06:24] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 15:06:24] _total_bytes_size : 268
+[Debug] [2026-11-1 15:06:24] cmd id :4e22cmd name : Program
+[Debug] [2026-11-1 15:06:24] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 15:06:24] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 15:06:24] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 15:06:24] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 15:06:24] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 15:06:24] begin to read back config registerregAddr is 4
+[Debug] [2026-11-1 15:06:24] progress bar is 6
+[Debug] [2026-11-1 15:06:24] progress bar is 10
+[Debug] [2026-11-1 15:06:24] progress bar is 15
+[Debug] [2026-11-1 15:06:24] progress bar is 20
+[Debug] [2026-11-1 15:06:25] progress bar is 25
+[Debug] [2026-11-1 15:06:25] progress bar is 30
+[Debug] [2026-11-1 15:06:25] progress bar is 35
+[Debug] [2026-11-1 15:06:25] progress bar is 40
+[Debug] [2026-11-1 15:06:25] progress bar is 45
+[Debug] [2026-11-1 15:06:25] progress bar is 50
+[Debug] [2026-11-1 15:06:25] progress bar is 55
+[Debug] [2026-11-1 15:06:25] progress bar is 60
+[Debug] [2026-11-1 15:06:25] progress bar is 65
+[Debug] [2026-11-1 15:06:25] progress bar is 70
+[Debug] [2026-11-1 15:06:25] progress bar is 75
+[Debug] [2026-11-1 15:06:25] progress bar is 80
+[Debug] [2026-11-1 15:06:26] progress bar is 85
+[Debug] [2026-11-1 15:06:26] progress bar is 90
+[Debug] [2026-11-1 15:06:26] progress bar is 95
+[Debug] [2026-11-1 15:06:26] progress bar is 100
+[Debug] [2026-11-1 15:06:26] the value in the status register is :2096288
+[Debug] [2026-11-1 15:06:26] cmd operation Program releases locker
+[Info] [2026-11-1 16:27:43] /***************************Start jtagserver***************************/
+[Info] [2026-11-1 16:27:43] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 16:27:43] Version: 146967
+[Debug] [2026-11-1 16:27:48] Add a new user_thread, socket descriptor is 1152 user_thread id is 0000000000000B40
+[Debug] [2026-11-1 16:27:48] After adding, map size is : 1
+[Debug] [2026-11-1 16:27:48] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 16:27:48] connection error happens : 1
+[Debug] [2026-11-1 16:27:48] connection state changes : 6 , socket description 1152
+[Warn] [2026-11-1 16:27:48] socket state is ListeningState
+[Debug] [2026-11-1 16:27:48] connection state changes : 0 , socket description 1152
+[Warn] [2026-11-1 16:27:48] socket state is UnconnectedState
+[Debug] [2026-11-1 16:27:48] socket descriptor 1152is about to delete
+[Debug] [2026-11-1 16:28:04] Add a new user_thread, socket descriptor is 1152 user_thread id is 0000000000000B40
+[Debug] [2026-11-1 16:28:04] After adding, map size is : 1
+[Debug] [2026-11-1 16:28:04] Add a new user_thread, socket descriptor is 1156 user_thread id is 0000000000000B40
+[Debug] [2026-11-1 16:28:04] After adding, map size is : 2
+[Debug] [2026-11-1 16:28:04] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 16:28:04] IP address of connecting client is : ::ffff:127.0.0.1IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 16:28:04] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 16:28:04] _total_bytes_size : 160
+[Debug] [2026-11-1 16:28:04] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 16:28:04] _total_bytes_size : 96
+[Debug] [2026-11-1 16:28:04] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-11-1 16:28:05] cmd operation get_cable_paras releases locker
+[Debug] [2026-11-1 16:28:07] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 16:28:07] _total_bytes_size : 101
+[Debug] [2026-11-1 16:28:07] cmd id :20001cmd name : Open config cable
+[Debug] [2026-11-1 16:28:07] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 16:28:07] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 16:28:07] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 16:28:07] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 16:28:07] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 16:28:07] cmd operation Open config cable releases locker
+[Debug] [2026-11-1 16:28:09] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 16:28:09] _total_bytes_size : 268
+[Debug] [2026-11-1 16:28:09] cmd id :4e22cmd name : Program
+[Debug] [2026-11-1 16:28:09] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 16:28:09] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 16:28:09] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 16:28:09] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 16:28:09] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 16:28:09] begin to read back config registerregAddr is 4
+[Debug] [2026-11-1 16:28:09] progress bar is 6
+[Debug] [2026-11-1 16:28:09] progress bar is 10
+[Debug] [2026-11-1 16:28:10] progress bar is 15
+[Debug] [2026-11-1 16:28:10] progress bar is 20
+[Debug] [2026-11-1 16:28:10] progress bar is 25
+[Debug] [2026-11-1 16:28:10] progress bar is 30
+[Debug] [2026-11-1 16:28:10] progress bar is 35
+[Debug] [2026-11-1 16:28:10] progress bar is 40
+[Debug] [2026-11-1 16:28:10] progress bar is 45
+[Debug] [2026-11-1 16:28:10] progress bar is 50
+[Debug] [2026-11-1 16:28:10] progress bar is 55
+[Debug] [2026-11-1 16:28:10] progress bar is 60
+[Debug] [2026-11-1 16:28:10] progress bar is 65
+[Debug] [2026-11-1 16:28:10] progress bar is 70
+[Debug] [2026-11-1 16:28:11] progress bar is 75
+[Debug] [2026-11-1 16:28:11] progress bar is 80
+[Debug] [2026-11-1 16:28:11] progress bar is 85
+[Debug] [2026-11-1 16:28:11] progress bar is 90
+[Debug] [2026-11-1 16:28:11] progress bar is 95
+[Debug] [2026-11-1 16:28:11] progress bar is 100
+[Debug] [2026-11-1 16:28:11] the value in the status register is :2096288
+[Debug] [2026-11-1 16:28:11] cmd operation Program releases locker
+[Info] [2026-11-1 17:22:41] /***************************Start jtagserver***************************/
+[Info] [2026-11-1 17:22:41] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 17:22:41] Version: 146967
+[Debug] [2026-11-1 17:22:46] Add a new user_thread, socket descriptor is 948 user_thread id is 0000000000007514
+[Debug] [2026-11-1 17:22:46] After adding, map size is : 1
+[Debug] [2026-11-1 17:22:46] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 17:22:46] connection error happens : 1
+[Debug] [2026-11-1 17:22:46] connection state changes : 6 , socket description 948
+[Warn] [2026-11-1 17:22:46] socket state is ListeningState
+[Debug] [2026-11-1 17:22:46] connection state changes : 0 , socket description 948
+[Warn] [2026-11-1 17:22:46] socket state is UnconnectedState
+[Debug] [2026-11-1 17:22:46] socket descriptor 948is about to delete
+[Debug] [2026-11-1 17:23:02] Add a new user_thread, socket descriptor is 1100 user_thread id is 0000000000007514
+[Debug] [2026-11-1 17:23:02] After adding, map size is : 1
+[Debug] [2026-11-1 17:23:02] Add a new user_thread, socket descriptor is 1152 user_thread id is 0000000000007514
+[Debug] [2026-11-1 17:23:02] After adding, map size is : 2
+[Debug] [2026-11-1 17:23:02] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 17:23:02] IP address of connecting client is : ::ffff:127.0.0.1IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 17:23:02] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 17:23:02] _total_bytes_size : 160
+[Debug] [2026-11-1 17:23:02] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 17:23:02] _total_bytes_size : 96
+[Debug] [2026-11-1 17:23:02] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-11-1 17:23:03] cmd operation get_cable_paras releases locker
+[Debug] [2026-11-1 17:23:05] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 17:23:05] _total_bytes_size : 101
+[Debug] [2026-11-1 17:23:05] cmd id :20001cmd name : Open config cable
+[Debug] [2026-11-1 17:23:06] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 17:23:06] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:23:06] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:23:06] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:23:06] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:23:06] cmd operation Open config cable releases locker
+[Debug] [2026-11-1 17:23:07] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 17:23:07] _total_bytes_size : 268
+[Debug] [2026-11-1 17:23:07] cmd id :4e22cmd name : Program
+[Debug] [2026-11-1 17:23:08] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 17:23:08] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:23:08] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:23:08] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:23:08] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:23:08] begin to read back config registerregAddr is 4
+[Debug] [2026-11-1 17:23:08] progress bar is 6
+[Debug] [2026-11-1 17:23:08] progress bar is 10
+[Debug] [2026-11-1 17:23:08] progress bar is 15
+[Debug] [2026-11-1 17:23:08] progress bar is 20
+[Debug] [2026-11-1 17:23:08] progress bar is 25
+[Debug] [2026-11-1 17:23:08] progress bar is 30
+[Debug] [2026-11-1 17:23:08] progress bar is 35
+[Debug] [2026-11-1 17:23:08] progress bar is 40
+[Debug] [2026-11-1 17:23:08] progress bar is 45
+[Debug] [2026-11-1 17:23:09] progress bar is 50
+[Debug] [2026-11-1 17:23:09] progress bar is 55
+[Debug] [2026-11-1 17:23:09] progress bar is 60
+[Debug] [2026-11-1 17:23:09] progress bar is 65
+[Debug] [2026-11-1 17:23:09] progress bar is 70
+[Debug] [2026-11-1 17:23:09] progress bar is 75
+[Debug] [2026-11-1 17:23:09] progress bar is 80
+[Debug] [2026-11-1 17:23:09] progress bar is 85
+[Debug] [2026-11-1 17:23:09] progress bar is 90
+[Debug] [2026-11-1 17:23:09] progress bar is 95
+[Debug] [2026-11-1 17:23:09] progress bar is 100
+[Debug] [2026-11-1 17:23:09] the value in the status register is :2096288
+[Debug] [2026-11-1 17:23:10] cmd operation Program releases locker
+[Info] [2026-11-1 17:28:19] /***************************Start jtagserver***************************/
+[Info] [2026-11-1 17:28:19] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 17:28:19] Version: 146967
+[Debug] [2026-11-1 17:28:24] Add a new user_thread, socket descriptor is 1052 user_thread id is 0000000000007ADC
+[Debug] [2026-11-1 17:28:24] After adding, map size is : 1
+[Debug] [2026-11-1 17:28:24] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 17:28:24] connection error happens : 1
+[Debug] [2026-11-1 17:28:24] connection state changes : 6 , socket description 1052
+[Warn] [2026-11-1 17:28:24] socket state is ListeningState
+[Debug] [2026-11-1 17:28:24] connection state changes : 0 , socket description 1052
+[Warn] [2026-11-1 17:28:24] socket state is UnconnectedState
+[Debug] [2026-11-1 17:28:24] socket descriptor 1052is about to delete
+[Debug] [2026-11-1 17:28:40] Add a new user_thread, socket descriptor is 1156 user_thread id is 0000000000007ADC
+[Debug] [2026-11-1 17:28:40] After adding, map size is : 1
+[Debug] [2026-11-1 17:28:40] Add a new user_thread, socket descriptor is 1108 user_thread id is 0000000000007ADC
+[Debug] [2026-11-1 17:28:40] After adding, map size is : 2
+[Debug] [2026-11-1 17:28:40] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 17:28:40] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 17:28:40] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 17:28:40] _total_bytes_size : 160
+[Debug] [2026-11-1 17:28:40] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 17:28:40] _total_bytes_size : 96
+[Debug] [2026-11-1 17:28:40] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-11-1 17:28:41] cmd operation get_cable_paras releases locker
+[Debug] [2026-11-1 17:28:43] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 17:28:43] _total_bytes_size : 101
+[Debug] [2026-11-1 17:28:43] cmd id :20001cmd name : Open config cable
+[Debug] [2026-11-1 17:28:44] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 17:28:44] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:28:44] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:28:44] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:28:44] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:28:44] cmd operation Open config cable releases locker
+[Debug] [2026-11-1 17:28:45] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 17:28:45] _total_bytes_size : 268
+[Debug] [2026-11-1 17:28:45] cmd id :4e22cmd name : Program
+[Debug] [2026-11-1 17:28:46] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 17:28:46] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:28:46] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:28:46] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:28:46] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 17:28:46] begin to read back config registerregAddr is 4
+[Debug] [2026-11-1 17:28:46] progress bar is 6
+[Debug] [2026-11-1 17:28:46] progress bar is 10
+[Debug] [2026-11-1 17:28:46] progress bar is 15
+[Debug] [2026-11-1 17:28:46] progress bar is 20
+[Debug] [2026-11-1 17:28:46] progress bar is 25
+[Debug] [2026-11-1 17:28:46] progress bar is 30
+[Debug] [2026-11-1 17:28:46] progress bar is 35
+[Debug] [2026-11-1 17:28:46] progress bar is 40
+[Debug] [2026-11-1 17:28:46] progress bar is 45
+[Debug] [2026-11-1 17:28:47] progress bar is 50
+[Debug] [2026-11-1 17:28:47] progress bar is 55
+[Debug] [2026-11-1 17:28:47] progress bar is 60
+[Debug] [2026-11-1 17:28:47] progress bar is 65
+[Debug] [2026-11-1 17:28:47] progress bar is 70
+[Debug] [2026-11-1 17:28:47] progress bar is 75
+[Debug] [2026-11-1 17:28:47] progress bar is 80
+[Debug] [2026-11-1 17:28:47] progress bar is 85
+[Debug] [2026-11-1 17:28:47] progress bar is 90
+[Debug] [2026-11-1 17:28:47] progress bar is 95
+[Debug] [2026-11-1 17:28:47] progress bar is 100
+[Debug] [2026-11-1 17:28:47] the value in the status register is :2096288
+[Debug] [2026-11-1 17:28:48] cmd operation Program releases locker
+[Info] [2026-11-1 21:28:46] /***************************Start jtagserver***************************/
+[Info] [2026-11-1 21:28:46] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 21:28:46] Version: 146967
+[Debug] [2026-11-1 21:28:51] Add a new user_thread, socket descriptor is 1108 user_thread id is 0000000000006348
+[Debug] [2026-11-1 21:28:51] After adding, map size is : 1
+[Debug] [2026-11-1 21:28:51] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-1 21:28:51] connection error happens : 1
+[Debug] [2026-11-1 21:28:51] connection state changes : 6 , socket description 1108
+[Warn] [2026-11-1 21:28:51] socket state is ListeningState
+[Debug] [2026-11-1 21:28:51] connection state changes : 0 , socket description 1108
+[Warn] [2026-11-1 21:28:51] socket state is UnconnectedState
+[Debug] [2026-11-1 21:28:51] socket descriptor 1108is about to delete
+[Debug] [2026-11-1 21:29:07] Add a new user_thread, socket descriptor is 1164 user_thread id is 0000000000006348
+[Debug] [2026-11-1 21:29:07] After adding, map size is : 1
+[Debug] [2026-11-1 21:29:07] Add a new user_thread, socket descriptor is 1144 user_thread id is 0000000000006348
+[Debug] [2026-11-1 21:29:07] After adding, map size is : 2
+[Debug] [2026-11-1 21:29:07] IP address of connecting client is : IP address of connecting client is : ::ffff:127.0.0.1::ffff:127.0.0.1
+[Debug] [2026-11-1 21:29:07] IP address of connecting client is : IP address of connecting client is : ::ffff:127.0.0.1::ffff:127.0.0.1
+[Debug] [2026-11-1 21:29:07] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 21:29:07] _total_bytes_size : 160
+[Debug] [2026-11-1 21:29:07] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 21:29:07] _total_bytes_size : 96
+[Debug] [2026-11-1 21:29:07] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-11-1 21:29:08] cmd operation get_cable_paras releases locker
+[Debug] [2026-11-1 21:29:10] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 21:29:10] _total_bytes_size : 101
+[Debug] [2026-11-1 21:29:10] cmd id :20001cmd name : Open config cable
+[Debug] [2026-11-1 21:29:10] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 21:29:10] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 21:29:10] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 21:29:10] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 21:29:10] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 21:29:11] cmd operation Open config cable releases locker
+[Debug] [2026-11-1 21:29:12] Remove the header data from the client, index : 0
+[Debug] [2026-11-1 21:29:12] _total_bytes_size : 268
+[Debug] [2026-11-1 21:29:12] cmd id :4e22cmd name : Program
+[Debug] [2026-11-1 21:29:12] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-1 21:29:12] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 21:29:12] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 21:29:12] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 21:29:12] the idcode from the scanning is: 0x0
+[Debug] [2026-11-1 21:29:12] begin to read back config registerregAddr is 4
+[Debug] [2026-11-1 21:29:13] progress bar is 6
+[Debug] [2026-11-1 21:29:13] progress bar is 10
+[Debug] [2026-11-1 21:29:13] progress bar is 15
+[Debug] [2026-11-1 21:29:13] progress bar is 20
+[Debug] [2026-11-1 21:29:13] progress bar is 25
+[Debug] [2026-11-1 21:29:13] progress bar is 30
+[Debug] [2026-11-1 21:29:13] progress bar is 35
+[Debug] [2026-11-1 21:29:13] progress bar is 40
+[Debug] [2026-11-1 21:29:13] progress bar is 45
+[Debug] [2026-11-1 21:29:13] progress bar is 50
+[Debug] [2026-11-1 21:29:13] progress bar is 55
+[Debug] [2026-11-1 21:29:14] progress bar is 60
+[Debug] [2026-11-1 21:29:14] progress bar is 65
+[Debug] [2026-11-1 21:29:14] progress bar is 70
+[Debug] [2026-11-1 21:29:14] progress bar is 75
+[Debug] [2026-11-1 21:29:14] progress bar is 80
+[Debug] [2026-11-1 21:29:14] progress bar is 85
+[Debug] [2026-11-1 21:29:14] progress bar is 90
+[Debug] [2026-11-1 21:29:14] progress bar is 95
+[Debug] [2026-11-1 21:29:14] progress bar is 100
+[Debug] [2026-11-1 21:29:14] the value in the status register is :2096288
+[Debug] [2026-11-1 21:29:14] cmd operation Program releases locker
+[Info] [2026-11-2 19:35:12] /***************************Start jtagserver***************************/
+[Info] [2026-11-2 19:35:12] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-2 19:35:12] Version: 146967
+[Debug] [2026-11-2 19:35:17] Add a new user_thread, socket descriptor is 1108 user_thread id is 0000000000001FF4
+[Debug] [2026-11-2 19:35:17] After adding, map size is : 1
+[Debug] [2026-11-2 19:35:17] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-2 19:35:17] connection error happens : 1
+[Debug] [2026-11-2 19:35:17] connection state changes : 6 , socket description 1108
+[Warn] [2026-11-2 19:35:17] socket state is ListeningState
+[Debug] [2026-11-2 19:35:17] connection state changes : 0 , socket description 1108
+[Warn] [2026-11-2 19:35:17] socket state is UnconnectedState
+[Debug] [2026-11-2 19:35:17] socket descriptor 1108is about to delete
+[Debug] [2026-11-2 19:35:33] Add a new user_thread, socket descriptor is 1108 user_thread id is 0000000000001FF4
+[Debug] [2026-11-2 19:35:33] After adding, map size is : 1
+[Debug] [2026-11-2 19:35:33] Add a new user_thread, socket descriptor is 1128 user_thread id is 0000000000001FF4
+[Debug] [2026-11-2 19:35:33] After adding, map size is : 2
+[Debug] [2026-11-2 19:35:33] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-2 19:35:33] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-2 19:35:33] Remove the header data from the client, index : 0
+[Debug] [2026-11-2 19:35:33] _total_bytes_size : 160
+[Debug] [2026-11-2 19:35:33] Remove the header data from the client, index : 0
+[Debug] [2026-11-2 19:35:33] _total_bytes_size : 96
+[Debug] [2026-11-2 19:35:33] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-11-2 19:35:34] cmd operation get_cable_paras releases locker
+[Debug] [2026-11-2 19:35:36] Remove the header data from the client, index : 0
+[Debug] [2026-11-2 19:35:36] _total_bytes_size : 101
+[Debug] [2026-11-2 19:35:36] cmd id :20001cmd name : Open config cable
+[Debug] [2026-11-2 19:35:36] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-2 19:35:36] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 19:35:36] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 19:35:36] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 19:35:36] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 19:35:37] cmd operation Open config cable releases locker
+[Debug] [2026-11-2 19:35:38] Remove the header data from the client, index : 0
+[Debug] [2026-11-2 19:35:38] _total_bytes_size : 268
+[Debug] [2026-11-2 19:35:38] cmd id :4e22cmd name : Program
+[Debug] [2026-11-2 19:35:38] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-2 19:35:38] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 19:35:38] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 19:35:38] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 19:35:38] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 19:35:38] begin to read back config registerregAddr is 4
+[Debug] [2026-11-2 19:35:38] progress bar is 6
+[Debug] [2026-11-2 19:35:38] progress bar is 10
+[Debug] [2026-11-2 19:35:39] progress bar is 15
+[Debug] [2026-11-2 19:35:39] progress bar is 20
+[Debug] [2026-11-2 19:35:39] progress bar is 25
+[Debug] [2026-11-2 19:35:39] progress bar is 30
+[Debug] [2026-11-2 19:35:39] progress bar is 35
+[Debug] [2026-11-2 19:35:39] progress bar is 40
+[Debug] [2026-11-2 19:35:39] progress bar is 45
+[Debug] [2026-11-2 19:35:39] progress bar is 50
+[Debug] [2026-11-2 19:35:39] progress bar is 55
+[Debug] [2026-11-2 19:35:39] progress bar is 60
+[Debug] [2026-11-2 19:35:39] progress bar is 65
+[Debug] [2026-11-2 19:35:40] progress bar is 70
+[Debug] [2026-11-2 19:35:40] progress bar is 75
+[Debug] [2026-11-2 19:35:40] progress bar is 80
+[Debug] [2026-11-2 19:35:40] progress bar is 85
+[Debug] [2026-11-2 19:35:40] progress bar is 90
+[Debug] [2026-11-2 19:35:40] progress bar is 95
+[Debug] [2026-11-2 19:35:40] progress bar is 100
+[Debug] [2026-11-2 19:35:40] the value in the status register is :2096288
+[Debug] [2026-11-2 19:35:40] cmd operation Program releases locker
+[Info] [2026-11-2 20:18:30] /***************************Start jtagserver***************************/
+[Info] [2026-11-2 20:18:30] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-2 20:18:30] Version: 146967
+[Debug] [2026-11-2 20:18:34] Add a new user_thread, socket descriptor is 1212 user_thread id is 00000000000025FC
+[Debug] [2026-11-2 20:18:34] After adding, map size is : 1
+[Debug] [2026-11-2 20:18:34] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-2 20:18:34] connection error happens : 1
+[Debug] [2026-11-2 20:18:34] connection state changes : 6 , socket description 1212
+[Warn] [2026-11-2 20:18:34] socket state is ListeningState
+[Debug] [2026-11-2 20:18:34] connection state changes : 0 , socket description 1212
+[Warn] [2026-11-2 20:18:34] socket state is UnconnectedState
+[Debug] [2026-11-2 20:18:34] socket descriptor 1212is about to delete
+[Debug] [2026-11-2 20:18:50] Add a new user_thread, socket descriptor is 1232 user_thread id is 00000000000025FC
+[Debug] [2026-11-2 20:18:50] After adding, map size is : 1
+[Debug] [2026-11-2 20:18:50] Add a new user_thread, socket descriptor is 1240 user_thread id is 00000000000025FC
+[Debug] [2026-11-2 20:18:50] After adding, map size is : 2
+[Debug] [2026-11-2 20:18:50] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-2 20:18:50] IP address of connecting client is : ::ffff:127.0.0.1IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-11-2 20:18:50] Remove the header data from the client, index : 0
+[Debug] [2026-11-2 20:18:50] _total_bytes_size : 160
+[Debug] [2026-11-2 20:18:50] Remove the header data from the client, index : 0
+[Debug] [2026-11-2 20:18:50] _total_bytes_size : 96
+[Debug] [2026-11-2 20:18:50] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-11-2 20:18:51] cmd operation get_cable_paras releases locker
+[Debug] [2026-11-2 20:18:53] Remove the header data from the client, index : 0
+[Debug] [2026-11-2 20:18:53] _total_bytes_size : 101
+[Debug] [2026-11-2 20:18:53] cmd id :20001cmd name : Open config cable
+[Debug] [2026-11-2 20:18:53] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-2 20:18:53] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 20:18:53] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 20:18:53] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 20:18:53] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 20:18:54] cmd operation Open config cable releases locker
+[Debug] [2026-11-2 20:18:55] Remove the header data from the client, index : 0
+[Debug] [2026-11-2 20:18:55] _total_bytes_size : 268
+[Debug] [2026-11-2 20:18:55] cmd id :4e22cmd name : Program
+[Debug] [2026-11-2 20:18:55] the idcode from the scanning is: 0x20601899
+[Debug] [2026-11-2 20:18:55] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 20:18:55] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 20:18:55] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 20:18:55] the idcode from the scanning is: 0x0
+[Debug] [2026-11-2 20:18:55] begin to read back config registerregAddr is 4
+[Debug] [2026-11-2 20:18:56] progress bar is 6
+[Debug] [2026-11-2 20:18:56] progress bar is 10
+[Debug] [2026-11-2 20:18:56] progress bar is 15
+[Debug] [2026-11-2 20:18:56] progress bar is 20
+[Debug] [2026-11-2 20:18:56] progress bar is 25
+[Debug] [2026-11-2 20:18:56] progress bar is 30
+[Debug] [2026-11-2 20:18:56] progress bar is 35
+[Debug] [2026-11-2 20:18:56] progress bar is 40
+[Debug] [2026-11-2 20:18:56] progress bar is 45
+[Debug] [2026-11-2 20:18:56] progress bar is 50
+[Debug] [2026-11-2 20:18:56] progress bar is 55
+[Debug] [2026-11-2 20:18:56] progress bar is 60
+[Debug] [2026-11-2 20:18:57] progress bar is 65
+[Debug] [2026-11-2 20:18:57] progress bar is 70
+[Debug] [2026-11-2 20:18:57] progress bar is 75
+[Debug] [2026-11-2 20:18:57] progress bar is 80
+[Debug] [2026-11-2 20:18:57] progress bar is 85
+[Debug] [2026-11-2 20:18:57] progress bar is 90
+[Debug] [2026-11-2 20:18:57] progress bar is 95
+[Debug] [2026-11-2 20:18:57] progress bar is 100
+[Debug] [2026-11-2 20:18:57] the value in the status register is :2096288
+[Debug] [2026-11-2 20:18:57] cmd operation Program releases locker

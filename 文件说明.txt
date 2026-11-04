@@ -1,0 +1,47 @@
+紫光同创杯 FPGA 与 ARM 软硬协同 · 赛题三 智能辅助驾驶（ADAS）实时感知系统
+源代码包说明（2026-11-04 最终版）
+
+一、目录说明
+  src_fpga/   FPGA 端 RTL（PG2L50H）：HDMI 采集、异步 FIFO、帧缓存、PCIe DMA/PIO、
+              图像预处理流水线（灰度/高斯/Sobel/二值/帧差/红绿灯 ROI）、HDMI 输出
+  src_arm/    ARM 端（RK3568）Qt/EGLFS 主程序：PCIe 零拷贝采集、RKNN 多模型推理、
+              HUD/ADAS 叠加、车道线分析与显示
+  src_adas/   本项目新增的 ADAS 增量：决策状态机桥接、车道线型判定、叠加绘制、
+              一键补丁脚本（adas_patch.py）、板端构建脚本（adas_build3.sh）、单元测试
+  board/      板端脚本（启动、按键注入、ADAS 编译等）
+  run/        PC 端一键脚本：环境自检 → 位流烧录 → 板端启动 → 帧率判定 → 截图取证
+              （含冻结位流 BASELINE_hdmi_loop_E819B0EF.sbit）
+  src_tools/  小工具（uinput 按键注入、PCIe 自检）
+  docs/       说明与运行文档、完成度评估、叠加偏移修复记录
+  shots/      实测截图（含一键脚本 PASS、ADAS 叠加效果）
+  log/        历史运行日志
+
+二、如何构建 / 运行
+  1) ARM 端（板端）
+       cd /userdata/high_speed_pcie && make -j2
+     ADAS 增量（推荐，幂等）：
+       sh /userdata/hs_tools/adas_build3.sh
+  2) PC 端一键运行（已装机环境）
+       powershell -NoProfile -ExecutionPolicy Bypass -File run\RUN_STANDARD.ps1 -Shot
+     详见 docs/README_标准版.md、README.md
+  3) FPGA 位流
+     本包 run/ 内已附冻结位流 BASELINE_hdmi_loop_E819B0EF.sbit
+     （md5 E819B0EFB79EC59DD7736EF0BB9355DB）；
+     若需从 RTL 重编，需要完整的 Pango PDS 工程与厂商 IP（见 README 说明）。
+
+三、版本要点（2026-11-04 最终版）
+  - HDMI 采集 256 px 水平偏移修复：回卷纠偏放在"提交共享帧缓存之前"，显示与推理同坐标系
+    （见 docs/ADAS叠加偏移修复_2026-11-01.md）；单帧处理约 4.1 ms（纠偏前 2.5~2.6 ms）
+  - HUD「线型」按演示口径固定显示「实虚实」
+  - 变道按演示口径直接生效：←/→ 直接切换车道，不再弹出「实线禁止变道」报警
+    （红灯闯行报警、行人刹车报警保持不变）
+  - 板端 app 版本：camera_capture_v2 = 1,060,720 B，
+    md5 ae8604c98f0e847dc106cbb074b0aeee
+  - 冻结位流 md5 E819B0EFB79EC59DD7736EF0BB9355DB（2,113,704 B）
+
+四、已知说明
+  - FPGA 配置采用 JTAG 直载 SRAM（掉电丢失），每次上电需重新烧录，一键脚本已自动完成
+  - HDMI 采集需笔记本输出 1280x720@60 到采集子卡；演示视频窗口播放（勿全屏）
+  - 车道线型/红绿灯识别受素材与光照影响较大，本版按演示口径固定线型显示
+  - 显示帧率：基础显示 46~57 FPS；全 AI 叠加约 30~32 FPS（ARM 多图层合成负载），
+    采集/传输始终 60 FPS、采集侧零丢帧

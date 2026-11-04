@@ -1,0 +1,11 @@
+{
+  "device": "/dev/dri/card0",
+  "hwcursor": false,
+  "outputs": [
+    {
+      "name": "HDMI1",
+      "mode": "99.000 1280 1390 1430 1650 720 725 730 750 +hsync +vsync",
+      "primary": true
+    }
+  ]
+}

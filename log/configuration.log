@@ -1,0 +1,552 @@
+[Info] [2026-10-28 18:18:55] /***************************Start Configuration***************************/
+[Info] [2026-10-28 18:18:55] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-10-28 18:18:55] Version: 146967
+[Info] [2026-10-28 18:18:56] Current Path: D:/Users/daaa/high_FINAL_2026-10-28
+[Info] [2026-10-28 18:18:56] PDS Dir Path: 
+[Debug] [2026-10-28 18:18:56] begin to check the cfg_connect exec condition.
+[Debug] [2026-10-28 18:18:56] end to check the cfg_connect exec condition.
+[Debug] [2026-10-28 18:18:56] Client Local host name:LAPTOP-T9LM6TDF
+[Debug] [2026-10-28 18:18:56] Client Local Address:10.66.197.60
+[Debug] [2026-10-28 18:18:56] Client Local Address:192.168.137.1
+[Debug] [2026-10-28 18:18:56] Server Address:127.0.0.1, Port:65420
+[Info] [2026-10-28 18:18:56] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-10-28 18:18:56] Finish.
+[Info] [2026-10-28 18:18:56] Connect server succeeded
+[Debug] [2026-10-28 18:18:56] Send RPC:1
+[Debug] [2026-10-28 18:18:56] Send cmd [check version information:40004] OK
+[Debug] [2026-10-28 18:18:56] Send RPC:2
+[Debug] [2026-10-28 18:18:56] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-10-28 18:18:56] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-10-28 18:18:57] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-10-28 18:18:58] cfg_connect succeed.
+[Debug] [2026-10-28 18:18:59] begin to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-10-28 18:18:59] end to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-10-28 18:18:59] begin remove user device...
+[Debug] [2026-10-28 18:18:59] end remove user device.
+[Debug] [2026-10-28 18:18:59] cfg_remove_all_devices succeed.
+[Debug] [2026-10-28 18:18:59] Send RPC:3
+[Debug] [2026-10-28 18:18:59] Send cmd [Open config cable:20001] OK
+[Debug] [2026-10-28 18:19:00] begin the exec of open cable cmd...
+[Debug] [2026-10-28 18:19:00] Begin to deal with chain from server...
+[Debug] [2026-10-28 18:19:00] Begin to set user chain...
+[Debug] [2026-10-28 18:19:00] End to set user chain.
+[Debug] [2026-10-28 18:19:00] end the exec of open cable cmd.
+[Debug] [2026-10-28 18:19:00] COMMAND[Open config cable] execute successfully, takes 0.4 secs.
+[Debug] [2026-10-28 18:19:00] cfg_scan_chain succeed.
+[Debug] [2026-10-28 18:19:01] begin to check the cfg_assign_file exec condition.
+[Debug] [2026-10-28 18:19:01] end to check the cfg_assign_file exec condition.
+[Debug] [2026-10-28 18:19:01] begin to get device info from CFG file...
+[Debug] [2026-10-28 18:19:01] end to get device info from CFG file...
+[Debug] [2026-10-28 18:19:01] cfg_assign_file succeed.
+[Debug] [2026-10-28 18:19:01] begin to check the cfg_program exec condition.
+[Debug] [2026-10-28 18:19:01] end to check the cfg_program exec condition.
+[Debug] [2026-10-28 18:19:01] Send RPC:4
+[Debug] [2026-10-28 18:19:01] Begin to send program data.
+[Debug] [2026-10-28 18:19:01] End to send program data.
+[Debug] [2026-10-28 18:19:01] Send cmd [Program:20002] OK
+[Debug] [2026-10-28 18:19:02] The value of Progress is 6
+[Debug] [2026-10-28 18:19:02] The value of Progress is 10
+[Debug] [2026-10-28 18:19:02] The value of Progress is 15
+[Debug] [2026-10-28 18:19:02] The value of Progress is 20
+[Debug] [2026-10-28 18:19:02] The value of Progress is 25
+[Debug] [2026-10-28 18:19:02] The value of Progress is 30
+[Debug] [2026-10-28 18:19:02] The value of Progress is 35
+[Debug] [2026-10-28 18:19:02] The value of Progress is 40
+[Debug] [2026-10-28 18:19:02] The value of Progress is 45
+[Debug] [2026-10-28 18:19:02] The value of Progress is 50
+[Debug] [2026-10-28 18:19:03] The value of Progress is 55
+[Debug] [2026-10-28 18:19:03] The value of Progress is 60
+[Debug] [2026-10-28 18:19:03] The value of Progress is 65
+[Debug] [2026-10-28 18:19:03] The value of Progress is 70
+[Debug] [2026-10-28 18:19:03] The value of Progress is 75
+[Debug] [2026-10-28 18:19:03] The value of Progress is 80
+[Debug] [2026-10-28 18:19:03] The value of Progress is 85
+[Debug] [2026-10-28 18:19:03] The value of Progress is 90
+[Debug] [2026-10-28 18:19:03] The value of Progress is 95
+[Debug] [2026-10-28 18:19:03] The value of Progress is 100
+[Debug] [2026-10-28 18:19:03] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-10-28 18:19:03] cfg_program succeed.
+[Info] [2026-10-28 18:19:04] /***************************End Configration***************************/
+[Info] [2026-11-1 15:06:18] /***************************Start Configuration***************************/
+[Info] [2026-11-1 15:06:18] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 15:06:18] Version: 146967
+[Info] [2026-11-1 15:06:19] Current Path: D:/Users/daaa/high_FINAL_2026-10-28
+[Info] [2026-11-1 15:06:19] PDS Dir Path: 
+[Debug] [2026-11-1 15:06:19] begin to check the cfg_connect exec condition.
+[Debug] [2026-11-1 15:06:19] end to check the cfg_connect exec condition.
+[Debug] [2026-11-1 15:06:19] Client Local host name:LAPTOP-T9LM6TDF
+[Debug] [2026-11-1 15:06:19] Client Local Address:10.66.85.138
+[Debug] [2026-11-1 15:06:19] Client Local Address:192.168.137.1
+[Debug] [2026-11-1 15:06:19] Server Address:127.0.0.1, Port:65420
+[Info] [2026-11-1 15:06:19] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-1 15:06:19] Finish.
+[Info] [2026-11-1 15:06:19] Connect server succeeded
+[Debug] [2026-11-1 15:06:19] Send RPC:1
+[Debug] [2026-11-1 15:06:19] Send cmd [check version information:40004] OK
+[Debug] [2026-11-1 15:06:19] Send RPC:2
+[Debug] [2026-11-1 15:06:19] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-1 15:06:19] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-1 15:06:20] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-1 15:06:21] cfg_connect succeed.
+[Debug] [2026-11-1 15:06:21] begin to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 15:06:21] end to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 15:06:21] begin remove user device...
+[Debug] [2026-11-1 15:06:21] end remove user device.
+[Debug] [2026-11-1 15:06:21] cfg_remove_all_devices succeed.
+[Debug] [2026-11-1 15:06:22] Send RPC:3
+[Debug] [2026-11-1 15:06:22] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-1 15:06:22] begin the exec of open cable cmd...
+[Debug] [2026-11-1 15:06:22] Begin to deal with chain from server...
+[Debug] [2026-11-1 15:06:22] Begin to set user chain...
+[Debug] [2026-11-1 15:06:22] End to set user chain.
+[Debug] [2026-11-1 15:06:22] end the exec of open cable cmd.
+[Debug] [2026-11-1 15:06:22] COMMAND[Open config cable] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-1 15:06:23] cfg_scan_chain succeed.
+[Debug] [2026-11-1 15:06:23] begin to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 15:06:23] end to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 15:06:23] begin to get device info from CFG file...
+[Debug] [2026-11-1 15:06:23] end to get device info from CFG file...
+[Debug] [2026-11-1 15:06:23] cfg_assign_file succeed.
+[Debug] [2026-11-1 15:06:24] begin to check the cfg_program exec condition.
+[Debug] [2026-11-1 15:06:24] end to check the cfg_program exec condition.
+[Debug] [2026-11-1 15:06:24] Send RPC:4
+[Debug] [2026-11-1 15:06:24] Begin to send program data.
+[Debug] [2026-11-1 15:06:24] End to send program data.
+[Debug] [2026-11-1 15:06:24] Send cmd [Program:20002] OK
+[Debug] [2026-11-1 15:06:24] The value of Progress is 6
+[Debug] [2026-11-1 15:06:24] The value of Progress is 10
+[Debug] [2026-11-1 15:06:24] The value of Progress is 15
+[Debug] [2026-11-1 15:06:24] The value of Progress is 20
+[Debug] [2026-11-1 15:06:25] The value of Progress is 25
+[Debug] [2026-11-1 15:06:25] The value of Progress is 30
+[Debug] [2026-11-1 15:06:25] The value of Progress is 35
+[Debug] [2026-11-1 15:06:25] The value of Progress is 40
+[Debug] [2026-11-1 15:06:25] The value of Progress is 45
+[Debug] [2026-11-1 15:06:25] The value of Progress is 50
+[Debug] [2026-11-1 15:06:25] The value of Progress is 55
+[Debug] [2026-11-1 15:06:25] The value of Progress is 60
+[Debug] [2026-11-1 15:06:25] The value of Progress is 65
+[Debug] [2026-11-1 15:06:25] The value of Progress is 70
+[Debug] [2026-11-1 15:06:25] The value of Progress is 75
+[Debug] [2026-11-1 15:06:25] The value of Progress is 80
+[Debug] [2026-11-1 15:06:26] The value of Progress is 85
+[Debug] [2026-11-1 15:06:26] The value of Progress is 90
+[Debug] [2026-11-1 15:06:26] The value of Progress is 95
+[Debug] [2026-11-1 15:06:26] The value of Progress is 100
+[Debug] [2026-11-1 15:06:26] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-11-1 15:06:26] cfg_program succeed.
+[Info] [2026-11-1 15:06:26] /***************************End Configration***************************/
+[Info] [2026-11-1 16:28:03] /***************************Start Configuration***************************/
+[Info] [2026-11-1 16:28:03] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 16:28:03] Version: 146967
+[Info] [2026-11-1 16:28:04] Current Path: D:/Users/daaa/high_FINAL_2026-10-28
+[Info] [2026-11-1 16:28:04] PDS Dir Path: 
+[Debug] [2026-11-1 16:28:04] begin to check the cfg_connect exec condition.
+[Debug] [2026-11-1 16:28:04] end to check the cfg_connect exec condition.
+[Debug] [2026-11-1 16:28:04] Client Local host name:LAPTOP-T9LM6TDF
+[Debug] [2026-11-1 16:28:04] Client Local Address:10.66.85.138
+[Debug] [2026-11-1 16:28:04] Client Local Address:192.168.137.1
+[Debug] [2026-11-1 16:28:04] Server Address:127.0.0.1, Port:65420
+[Info] [2026-11-1 16:28:04] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-1 16:28:04] Finish.
+[Info] [2026-11-1 16:28:04] Connect server succeeded
+[Debug] [2026-11-1 16:28:04] Send RPC:1
+[Debug] [2026-11-1 16:28:04] Send cmd [check version information:40004] OK
+[Debug] [2026-11-1 16:28:04] Send RPC:2
+[Debug] [2026-11-1 16:28:04] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-1 16:28:04] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-1 16:28:05] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-1 16:28:06] cfg_connect succeed.
+[Debug] [2026-11-1 16:28:07] begin to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 16:28:07] end to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 16:28:07] begin remove user device...
+[Debug] [2026-11-1 16:28:07] end remove user device.
+[Debug] [2026-11-1 16:28:07] cfg_remove_all_devices succeed.
+[Debug] [2026-11-1 16:28:07] Send RPC:3
+[Debug] [2026-11-1 16:28:07] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-1 16:28:07] begin the exec of open cable cmd...
+[Debug] [2026-11-1 16:28:07] Begin to deal with chain from server...
+[Debug] [2026-11-1 16:28:07] Begin to set user chain...
+[Debug] [2026-11-1 16:28:07] End to set user chain.
+[Debug] [2026-11-1 16:28:07] end the exec of open cable cmd.
+[Debug] [2026-11-1 16:28:07] COMMAND[Open config cable] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-1 16:28:08] cfg_scan_chain succeed.
+[Debug] [2026-11-1 16:28:09] begin to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 16:28:09] end to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 16:28:09] begin to get device info from CFG file...
+[Debug] [2026-11-1 16:28:09] end to get device info from CFG file...
+[Debug] [2026-11-1 16:28:09] cfg_assign_file succeed.
+[Debug] [2026-11-1 16:28:09] begin to check the cfg_program exec condition.
+[Debug] [2026-11-1 16:28:09] end to check the cfg_program exec condition.
+[Debug] [2026-11-1 16:28:09] Send RPC:4
+[Debug] [2026-11-1 16:28:09] Begin to send program data.
+[Debug] [2026-11-1 16:28:09] End to send program data.
+[Debug] [2026-11-1 16:28:09] Send cmd [Program:20002] OK
+[Debug] [2026-11-1 16:28:09] The value of Progress is 6
+[Debug] [2026-11-1 16:28:09] The value of Progress is 10
+[Debug] [2026-11-1 16:28:10] The value of Progress is 15
+[Debug] [2026-11-1 16:28:10] The value of Progress is 20
+[Debug] [2026-11-1 16:28:10] The value of Progress is 25
+[Debug] [2026-11-1 16:28:10] The value of Progress is 30
+[Debug] [2026-11-1 16:28:10] The value of Progress is 35
+[Debug] [2026-11-1 16:28:10] The value of Progress is 40
+[Debug] [2026-11-1 16:28:10] The value of Progress is 45
+[Debug] [2026-11-1 16:28:10] The value of Progress is 50
+[Debug] [2026-11-1 16:28:10] The value of Progress is 55
+[Debug] [2026-11-1 16:28:10] The value of Progress is 60
+[Debug] [2026-11-1 16:28:10] The value of Progress is 65
+[Debug] [2026-11-1 16:28:10] The value of Progress is 70
+[Debug] [2026-11-1 16:28:11] The value of Progress is 75
+[Debug] [2026-11-1 16:28:11] The value of Progress is 80
+[Debug] [2026-11-1 16:28:11] The value of Progress is 85
+[Debug] [2026-11-1 16:28:11] The value of Progress is 90
+[Debug] [2026-11-1 16:28:11] The value of Progress is 95
+[Debug] [2026-11-1 16:28:11] The value of Progress is 100
+[Debug] [2026-11-1 16:28:11] COMMAND[Program] execute successfully, takes 2.3 secs.
+[Debug] [2026-11-1 16:28:12] cfg_program succeed.
+[Info] [2026-11-1 16:28:13] /***************************End Configration***************************/
+[Info] [2026-11-1 17:23:01] /***************************Start Configuration***************************/
+[Info] [2026-11-1 17:23:01] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 17:23:01] Version: 146967
+[Info] [2026-11-1 17:23:02] Current Path: D:/Users/daaa/high_FINAL_2026-10-28
+[Info] [2026-11-1 17:23:02] PDS Dir Path: 
+[Debug] [2026-11-1 17:23:02] begin to check the cfg_connect exec condition.
+[Debug] [2026-11-1 17:23:02] end to check the cfg_connect exec condition.
+[Debug] [2026-11-1 17:23:02] Client Local host name:LAPTOP-T9LM6TDF
+[Debug] [2026-11-1 17:23:02] Client Local Address:10.66.85.138
+[Debug] [2026-11-1 17:23:02] Client Local Address:192.168.137.1
+[Debug] [2026-11-1 17:23:02] Server Address:127.0.0.1, Port:65420
+[Info] [2026-11-1 17:23:02] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-1 17:23:02] Finish.
+[Info] [2026-11-1 17:23:02] Connect server succeeded
+[Debug] [2026-11-1 17:23:02] Send RPC:1
+[Debug] [2026-11-1 17:23:02] Send cmd [check version information:40004] OK
+[Debug] [2026-11-1 17:23:02] Send RPC:2
+[Debug] [2026-11-1 17:23:02] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-1 17:23:02] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-1 17:23:03] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-1 17:23:04] cfg_connect succeed.
+[Debug] [2026-11-1 17:23:05] begin to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 17:23:05] end to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 17:23:05] begin remove user device...
+[Debug] [2026-11-1 17:23:05] end remove user device.
+[Debug] [2026-11-1 17:23:05] cfg_remove_all_devices succeed.
+[Debug] [2026-11-1 17:23:05] Send RPC:3
+[Debug] [2026-11-1 17:23:05] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-1 17:23:06] begin the exec of open cable cmd...
+[Debug] [2026-11-1 17:23:06] Begin to deal with chain from server...
+[Debug] [2026-11-1 17:23:06] Begin to set user chain...
+[Debug] [2026-11-1 17:23:06] End to set user chain.
+[Debug] [2026-11-1 17:23:06] end the exec of open cable cmd.
+[Debug] [2026-11-1 17:23:06] COMMAND[Open config cable] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-1 17:23:06] cfg_scan_chain succeed.
+[Debug] [2026-11-1 17:23:07] begin to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 17:23:07] end to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 17:23:07] begin to get device info from CFG file...
+[Debug] [2026-11-1 17:23:07] end to get device info from CFG file...
+[Debug] [2026-11-1 17:23:07] cfg_assign_file succeed.
+[Debug] [2026-11-1 17:23:07] begin to check the cfg_program exec condition.
+[Debug] [2026-11-1 17:23:07] end to check the cfg_program exec condition.
+[Debug] [2026-11-1 17:23:07] Send RPC:4
+[Debug] [2026-11-1 17:23:07] Begin to send program data.
+[Debug] [2026-11-1 17:23:07] End to send program data.
+[Debug] [2026-11-1 17:23:07] Send cmd [Program:20002] OK
+[Debug] [2026-11-1 17:23:08] The value of Progress is 6
+[Debug] [2026-11-1 17:23:08] The value of Progress is 10
+[Debug] [2026-11-1 17:23:08] The value of Progress is 15
+[Debug] [2026-11-1 17:23:08] The value of Progress is 20
+[Debug] [2026-11-1 17:23:08] The value of Progress is 25
+[Debug] [2026-11-1 17:23:08] The value of Progress is 30
+[Debug] [2026-11-1 17:23:08] The value of Progress is 35
+[Debug] [2026-11-1 17:23:08] The value of Progress is 40
+[Debug] [2026-11-1 17:23:08] The value of Progress is 45
+[Debug] [2026-11-1 17:23:09] The value of Progress is 50
+[Debug] [2026-11-1 17:23:09] The value of Progress is 55
+[Debug] [2026-11-1 17:23:09] The value of Progress is 60
+[Debug] [2026-11-1 17:23:09] The value of Progress is 65
+[Debug] [2026-11-1 17:23:09] The value of Progress is 70
+[Debug] [2026-11-1 17:23:09] The value of Progress is 75
+[Debug] [2026-11-1 17:23:09] The value of Progress is 80
+[Debug] [2026-11-1 17:23:09] The value of Progress is 85
+[Debug] [2026-11-1 17:23:09] The value of Progress is 90
+[Debug] [2026-11-1 17:23:09] The value of Progress is 95
+[Debug] [2026-11-1 17:23:09] The value of Progress is 100
+[Debug] [2026-11-1 17:23:10] COMMAND[Program] execute successfully, takes 2.3 secs.
+[Debug] [2026-11-1 17:23:10] cfg_program succeed.
+[Info] [2026-11-1 17:23:11] /***************************End Configration***************************/
+[Info] [2026-11-1 17:28:39] /***************************Start Configuration***************************/
+[Info] [2026-11-1 17:28:39] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 17:28:39] Version: 146967
+[Info] [2026-11-1 17:28:40] Current Path: D:/Users/daaa/high_FINAL_2026-10-28
+[Info] [2026-11-1 17:28:40] PDS Dir Path: 
+[Debug] [2026-11-1 17:28:40] begin to check the cfg_connect exec condition.
+[Debug] [2026-11-1 17:28:40] end to check the cfg_connect exec condition.
+[Debug] [2026-11-1 17:28:40] Client Local host name:LAPTOP-T9LM6TDF
+[Debug] [2026-11-1 17:28:40] Client Local Address:10.66.85.138
+[Debug] [2026-11-1 17:28:40] Client Local Address:192.168.137.1
+[Debug] [2026-11-1 17:28:40] Server Address:127.0.0.1, Port:65420
+[Info] [2026-11-1 17:28:40] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-1 17:28:40] Finish.
+[Info] [2026-11-1 17:28:40] Connect server succeeded
+[Debug] [2026-11-1 17:28:40] Send RPC:1
+[Debug] [2026-11-1 17:28:40] Send cmd [check version information:40004] OK
+[Debug] [2026-11-1 17:28:40] Send RPC:2
+[Debug] [2026-11-1 17:28:40] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-1 17:28:40] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-1 17:28:41] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-1 17:28:42] cfg_connect succeed.
+[Debug] [2026-11-1 17:28:43] begin to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 17:28:43] end to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 17:28:43] begin remove user device...
+[Debug] [2026-11-1 17:28:43] end remove user device.
+[Debug] [2026-11-1 17:28:43] cfg_remove_all_devices succeed.
+[Debug] [2026-11-1 17:28:43] Send RPC:3
+[Debug] [2026-11-1 17:28:43] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-1 17:28:44] begin the exec of open cable cmd...
+[Debug] [2026-11-1 17:28:44] Begin to deal with chain from server...
+[Debug] [2026-11-1 17:28:44] Begin to set user chain...
+[Debug] [2026-11-1 17:28:44] End to set user chain.
+[Debug] [2026-11-1 17:28:44] end the exec of open cable cmd.
+[Debug] [2026-11-1 17:28:44] COMMAND[Open config cable] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-1 17:28:44] cfg_scan_chain succeed.
+[Debug] [2026-11-1 17:28:45] begin to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 17:28:45] end to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 17:28:45] begin to get device info from CFG file...
+[Debug] [2026-11-1 17:28:45] end to get device info from CFG file...
+[Debug] [2026-11-1 17:28:45] cfg_assign_file succeed.
+[Debug] [2026-11-1 17:28:45] begin to check the cfg_program exec condition.
+[Debug] [2026-11-1 17:28:45] end to check the cfg_program exec condition.
+[Debug] [2026-11-1 17:28:45] Send RPC:4
+[Debug] [2026-11-1 17:28:45] Begin to send program data.
+[Debug] [2026-11-1 17:28:45] End to send program data.
+[Debug] [2026-11-1 17:28:45] Send cmd [Program:20002] OK
+[Debug] [2026-11-1 17:28:46] The value of Progress is 6
+[Debug] [2026-11-1 17:28:46] The value of Progress is 10
+[Debug] [2026-11-1 17:28:46] The value of Progress is 15
+[Debug] [2026-11-1 17:28:46] The value of Progress is 20
+[Debug] [2026-11-1 17:28:46] The value of Progress is 25
+[Debug] [2026-11-1 17:28:46] The value of Progress is 30
+[Debug] [2026-11-1 17:28:46] The value of Progress is 35
+[Debug] [2026-11-1 17:28:46] The value of Progress is 40
+[Debug] [2026-11-1 17:28:46] The value of Progress is 45
+[Debug] [2026-11-1 17:28:47] The value of Progress is 50
+[Debug] [2026-11-1 17:28:47] The value of Progress is 55
+[Debug] [2026-11-1 17:28:47] The value of Progress is 60
+[Debug] [2026-11-1 17:28:47] The value of Progress is 65
+[Debug] [2026-11-1 17:28:47] The value of Progress is 70
+[Debug] [2026-11-1 17:28:47] The value of Progress is 75
+[Debug] [2026-11-1 17:28:47] The value of Progress is 80
+[Debug] [2026-11-1 17:28:47] The value of Progress is 85
+[Debug] [2026-11-1 17:28:47] The value of Progress is 90
+[Debug] [2026-11-1 17:28:47] The value of Progress is 95
+[Debug] [2026-11-1 17:28:47] The value of Progress is 100
+[Debug] [2026-11-1 17:28:48] COMMAND[Program] execute successfully, takes 2.3 secs.
+[Debug] [2026-11-1 17:28:48] cfg_program succeed.
+[Info] [2026-11-1 17:28:49] /***************************End Configration***************************/
+[Info] [2026-11-1 21:29:06] /***************************Start Configuration***************************/
+[Info] [2026-11-1 21:29:06] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-1 21:29:06] Version: 146967
+[Info] [2026-11-1 21:29:07] Current Path: D:/Users/daaa/high_FINAL_2026-10-28
+[Info] [2026-11-1 21:29:07] PDS Dir Path: 
+[Debug] [2026-11-1 21:29:07] begin to check the cfg_connect exec condition.
+[Debug] [2026-11-1 21:29:07] end to check the cfg_connect exec condition.
+[Debug] [2026-11-1 21:29:07] Client Local host name:LAPTOP-T9LM6TDF
+[Debug] [2026-11-1 21:29:07] Client Local Address:10.66.85.138
+[Debug] [2026-11-1 21:29:07] Client Local Address:192.168.137.1
+[Debug] [2026-11-1 21:29:07] Server Address:127.0.0.1, Port:65420
+[Info] [2026-11-1 21:29:07] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-1 21:29:07] Finish.
+[Info] [2026-11-1 21:29:07] Connect server succeeded
+[Debug] [2026-11-1 21:29:07] Send RPC:1
+[Debug] [2026-11-1 21:29:07] Send cmd [check version information:40004] OK
+[Debug] [2026-11-1 21:29:07] Send RPC:2
+[Debug] [2026-11-1 21:29:07] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-1 21:29:07] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-1 21:29:08] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-1 21:29:09] cfg_connect succeed.
+[Debug] [2026-11-1 21:29:10] begin to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 21:29:10] end to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-1 21:29:10] begin remove user device...
+[Debug] [2026-11-1 21:29:10] end remove user device.
+[Debug] [2026-11-1 21:29:10] cfg_remove_all_devices succeed.
+[Debug] [2026-11-1 21:29:10] Send RPC:3
+[Debug] [2026-11-1 21:29:10] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-1 21:29:11] begin the exec of open cable cmd...
+[Debug] [2026-11-1 21:29:11] Begin to deal with chain from server...
+[Debug] [2026-11-1 21:29:11] Begin to set user chain...
+[Debug] [2026-11-1 21:29:11] End to set user chain.
+[Debug] [2026-11-1 21:29:11] end the exec of open cable cmd.
+[Debug] [2026-11-1 21:29:11] COMMAND[Open config cable] execute successfully, takes 0.5 secs.
+[Debug] [2026-11-1 21:29:11] cfg_scan_chain succeed.
+[Debug] [2026-11-1 21:29:12] begin to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 21:29:12] end to check the cfg_assign_file exec condition.
+[Debug] [2026-11-1 21:29:12] begin to get device info from CFG file...
+[Debug] [2026-11-1 21:29:12] end to get device info from CFG file...
+[Debug] [2026-11-1 21:29:12] cfg_assign_file succeed.
+[Debug] [2026-11-1 21:29:12] begin to check the cfg_program exec condition.
+[Debug] [2026-11-1 21:29:12] end to check the cfg_program exec condition.
+[Debug] [2026-11-1 21:29:12] Send RPC:4
+[Debug] [2026-11-1 21:29:12] Begin to send program data.
+[Debug] [2026-11-1 21:29:12] End to send program data.
+[Debug] [2026-11-1 21:29:12] Send cmd [Program:20002] OK
+[Debug] [2026-11-1 21:29:13] The value of Progress is 6
+[Debug] [2026-11-1 21:29:13] The value of Progress is 10
+[Debug] [2026-11-1 21:29:13] The value of Progress is 15
+[Debug] [2026-11-1 21:29:13] The value of Progress is 20
+[Debug] [2026-11-1 21:29:13] The value of Progress is 25
+[Debug] [2026-11-1 21:29:13] The value of Progress is 30
+[Debug] [2026-11-1 21:29:13] The value of Progress is 35
+[Debug] [2026-11-1 21:29:13] The value of Progress is 40
+[Debug] [2026-11-1 21:29:13] The value of Progress is 45
+[Debug] [2026-11-1 21:29:13] The value of Progress is 50
+[Debug] [2026-11-1 21:29:13] The value of Progress is 55
+[Debug] [2026-11-1 21:29:14] The value of Progress is 60
+[Debug] [2026-11-1 21:29:14] The value of Progress is 65
+[Debug] [2026-11-1 21:29:14] The value of Progress is 70
+[Debug] [2026-11-1 21:29:14] The value of Progress is 75
+[Debug] [2026-11-1 21:29:14] The value of Progress is 80
+[Debug] [2026-11-1 21:29:14] The value of Progress is 85
+[Debug] [2026-11-1 21:29:14] The value of Progress is 90
+[Debug] [2026-11-1 21:29:14] The value of Progress is 95
+[Debug] [2026-11-1 21:29:14] The value of Progress is 100
+[Debug] [2026-11-1 21:29:14] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-11-1 21:29:14] cfg_program succeed.
+[Info] [2026-11-1 21:29:15] /***************************End Configration***************************/
+[Info] [2026-11-2 19:35:32] /***************************Start Configuration***************************/
+[Info] [2026-11-2 19:35:32] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-2 19:35:32] Version: 146967
+[Info] [2026-11-2 19:35:33] Current Path: D:/Users/daaa/high_FINAL_2026-10-28
+[Info] [2026-11-2 19:35:33] PDS Dir Path: 
+[Debug] [2026-11-2 19:35:33] begin to check the cfg_connect exec condition.
+[Debug] [2026-11-2 19:35:33] end to check the cfg_connect exec condition.
+[Debug] [2026-11-2 19:35:33] Client Local host name:LAPTOP-T9LM6TDF
+[Debug] [2026-11-2 19:35:33] Client Local Address:10.66.77.77
+[Debug] [2026-11-2 19:35:33] Client Local Address:192.168.137.1
+[Debug] [2026-11-2 19:35:33] Server Address:127.0.0.1, Port:65420
+[Info] [2026-11-2 19:35:33] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-2 19:35:33] Finish.
+[Info] [2026-11-2 19:35:33] Connect server succeeded
+[Debug] [2026-11-2 19:35:33] Send RPC:1
+[Debug] [2026-11-2 19:35:33] Send cmd [check version information:40004] OK
+[Debug] [2026-11-2 19:35:33] Send RPC:2
+[Debug] [2026-11-2 19:35:33] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-2 19:35:33] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-2 19:35:34] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-2 19:35:35] cfg_connect succeed.
+[Debug] [2026-11-2 19:35:36] begin to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-2 19:35:36] end to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-2 19:35:36] begin remove user device...
+[Debug] [2026-11-2 19:35:36] end remove user device.
+[Debug] [2026-11-2 19:35:36] cfg_remove_all_devices succeed.
+[Debug] [2026-11-2 19:35:36] Send RPC:3
+[Debug] [2026-11-2 19:35:36] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-2 19:35:37] begin the exec of open cable cmd...
+[Debug] [2026-11-2 19:35:37] Begin to deal with chain from server...
+[Debug] [2026-11-2 19:35:37] Begin to set user chain...
+[Debug] [2026-11-2 19:35:37] End to set user chain.
+[Debug] [2026-11-2 19:35:37] end the exec of open cable cmd.
+[Debug] [2026-11-2 19:35:37] COMMAND[Open config cable] execute successfully, takes 0.5 secs.
+[Debug] [2026-11-2 19:35:37] cfg_scan_chain succeed.
+[Debug] [2026-11-2 19:35:38] begin to check the cfg_assign_file exec condition.
+[Debug] [2026-11-2 19:35:38] end to check the cfg_assign_file exec condition.
+[Debug] [2026-11-2 19:35:38] begin to get device info from CFG file...
+[Debug] [2026-11-2 19:35:38] end to get device info from CFG file...
+[Debug] [2026-11-2 19:35:38] cfg_assign_file succeed.
+[Debug] [2026-11-2 19:35:38] begin to check the cfg_program exec condition.
+[Debug] [2026-11-2 19:35:38] end to check the cfg_program exec condition.
+[Debug] [2026-11-2 19:35:38] Send RPC:4
+[Debug] [2026-11-2 19:35:38] Begin to send program data.
+[Debug] [2026-11-2 19:35:38] End to send program data.
+[Debug] [2026-11-2 19:35:38] Send cmd [Program:20002] OK
+[Debug] [2026-11-2 19:35:38] The value of Progress is 6
+[Debug] [2026-11-2 19:35:38] The value of Progress is 10
+[Debug] [2026-11-2 19:35:39] The value of Progress is 15
+[Debug] [2026-11-2 19:35:39] The value of Progress is 20
+[Debug] [2026-11-2 19:35:39] The value of Progress is 25
+[Debug] [2026-11-2 19:35:39] The value of Progress is 30
+[Debug] [2026-11-2 19:35:39] The value of Progress is 35
+[Debug] [2026-11-2 19:35:39] The value of Progress is 40
+[Debug] [2026-11-2 19:35:39] The value of Progress is 45
+[Debug] [2026-11-2 19:35:39] The value of Progress is 50
+[Debug] [2026-11-2 19:35:39] The value of Progress is 55
+[Debug] [2026-11-2 19:35:39] The value of Progress is 60
+[Debug] [2026-11-2 19:35:39] The value of Progress is 65
+[Debug] [2026-11-2 19:35:40] The value of Progress is 70
+[Debug] [2026-11-2 19:35:40] The value of Progress is 75
+[Debug] [2026-11-2 19:35:40] The value of Progress is 80
+[Debug] [2026-11-2 19:35:40] The value of Progress is 85
+[Debug] [2026-11-2 19:35:40] The value of Progress is 90
+[Debug] [2026-11-2 19:35:40] The value of Progress is 95
+[Debug] [2026-11-2 19:35:40] The value of Progress is 100
+[Debug] [2026-11-2 19:35:40] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2026-11-2 19:35:41] cfg_program succeed.
+[Info] [2026-11-2 19:35:42] /***************************End Configration***************************/
+[Info] [2026-11-2 20:18:49] /***************************Start Configuration***************************/
+[Info] [2026-11-2 20:18:49] Path: D:/Pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-11-2 20:18:49] Version: 146967
+[Info] [2026-11-2 20:18:50] Current Path: D:/Users/daaa/high_FINAL_2026-10-28
+[Info] [2026-11-2 20:18:50] PDS Dir Path: 
+[Debug] [2026-11-2 20:18:50] begin to check the cfg_connect exec condition.
+[Debug] [2026-11-2 20:18:50] end to check the cfg_connect exec condition.
+[Debug] [2026-11-2 20:18:50] Client Local host name:LAPTOP-T9LM6TDF
+[Debug] [2026-11-2 20:18:50] Client Local Address:10.66.77.77
+[Debug] [2026-11-2 20:18:50] Client Local Address:192.168.137.1
+[Debug] [2026-11-2 20:18:50] Server Address:127.0.0.1, Port:65420
+[Info] [2026-11-2 20:18:50] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-11-2 20:18:50] Finish.
+[Info] [2026-11-2 20:18:50] Connect server succeeded
+[Debug] [2026-11-2 20:18:50] Send RPC:1
+[Debug] [2026-11-2 20:18:50] Send cmd [check version information:40004] OK
+[Debug] [2026-11-2 20:18:50] Send RPC:2
+[Debug] [2026-11-2 20:18:50] Send cmd [get_cable_paras:40010] OK
+[Debug] [2026-11-2 20:18:50] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2026-11-2 20:18:51] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2026-11-2 20:18:52] cfg_connect succeed.
+[Debug] [2026-11-2 20:18:53] begin to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-2 20:18:53] end to check the cfg_remove_all_devices exec condition.
+[Debug] [2026-11-2 20:18:53] begin remove user device...
+[Debug] [2026-11-2 20:18:53] end remove user device.
+[Debug] [2026-11-2 20:18:53] cfg_remove_all_devices succeed.
+[Debug] [2026-11-2 20:18:53] Send RPC:3
+[Debug] [2026-11-2 20:18:53] Send cmd [Open config cable:20001] OK
+[Debug] [2026-11-2 20:18:54] begin the exec of open cable cmd...
+[Debug] [2026-11-2 20:18:54] Begin to deal with chain from server...
+[Debug] [2026-11-2 20:18:54] Begin to set user chain...
+[Debug] [2026-11-2 20:18:54] End to set user chain.
+[Debug] [2026-11-2 20:18:54] end the exec of open cable cmd.
+[Debug] [2026-11-2 20:18:54] COMMAND[Open config cable] execute successfully, takes 0.4 secs.
+[Debug] [2026-11-2 20:18:54] cfg_scan_chain succeed.
+[Debug] [2026-11-2 20:18:55] begin to check the cfg_assign_file exec condition.
+[Debug] [2026-11-2 20:18:55] end to check the cfg_assign_file exec condition.
+[Debug] [2026-11-2 20:18:55] begin to get device info from CFG file...
+[Debug] [2026-11-2 20:18:55] end to get device info from CFG file...
+[Debug] [2026-11-2 20:18:55] cfg_assign_file succeed.
+[Debug] [2026-11-2 20:18:55] begin to check the cfg_program exec condition.
+[Debug] [2026-11-2 20:18:55] end to check the cfg_program exec condition.
+[Debug] [2026-11-2 20:18:55] Send RPC:4
+[Debug] [2026-11-2 20:18:55] Begin to send program data.
+[Debug] [2026-11-2 20:18:55] End to send program data.
+[Debug] [2026-11-2 20:18:55] Send cmd [Program:20002] OK
+[Debug] [2026-11-2 20:18:56] The value of Progress is 6
+[Debug] [2026-11-2 20:18:56] The value of Progress is 10
+[Debug] [2026-11-2 20:18:56] The value of Progress is 15
+[Debug] [2026-11-2 20:18:56] The value of Progress is 20
+[Debug] [2026-11-2 20:18:56] The value of Progress is 25
+[Debug] [2026-11-2 20:18:56] The value of Progress is 30
+[Debug] [2026-11-2 20:18:56] The value of Progress is 35
+[Debug] [2026-11-2 20:18:56] The value of Progress is 40
+[Debug] [2026-11-2 20:18:56] The value of Progress is 45
+[Debug] [2026-11-2 20:18:56] The value of Progress is 50
+[Debug] [2026-11-2 20:18:56] The value of Progress is 55
+[Debug] [2026-11-2 20:18:56] The value of Progress is 60
+[Debug] [2026-11-2 20:18:57] The value of Progress is 65
+[Debug] [2026-11-2 20:18:57] The value of Progress is 70
+[Debug] [2026-11-2 20:18:57] The value of Progress is 75
+[Debug] [2026-11-2 20:18:57] The value of Progress is 80
+[Debug] [2026-11-2 20:18:57] The value of Progress is 85
+[Debug] [2026-11-2 20:18:57] The value of Progress is 90
+[Debug] [2026-11-2 20:18:57] The value of Progress is 95
+[Debug] [2026-11-2 20:18:57] The value of Progress is 100
+[Debug] [2026-11-2 20:18:57] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-11-2 20:18:57] cfg_program succeed.
+[Info] [2026-11-2 20:18:58] /***************************End Configration***************************/
