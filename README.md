@@ -126,7 +126,7 @@ high_FINAL_2026-10-28\
 2. **app 在跑时不要 unbind/bind、不要写 `0x300`** —— 会锁内核 / 把换源状态机搞挂。
 3. **不按 Esc**；视频**不要全屏**。
 4. 改 app / 编译前先 `pkill -9 -f camera_capture; pkill -9 -f run_camera.sh; sleep 2`。
-5. **每次断电都要重烧位流**（Flash 启动是坏的，位流本来就在 SRAM）。
+5. **每次断电都要重烧位流**。
 6. `/tmp` 重启即清，持久脚本都在 `/userdata/hs_tools/`。
 
 ---
