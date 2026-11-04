@@ -12,7 +12,7 @@
 | 启动脚本 | 板端 `/userdata/hs_tools/start_60.sh`（md5 `6f72c218c1448d1ffc2d69f69c3590d6`）+ `plain_start.sh`（`d1a970b5…`） |
 | 键注入 | 板端 `/userdata/hs_tools/adas_keys.sh`（`ce7bee31…`），自动编译 `/tmp/keyinject` |
 | ADAS 源码包 | `adas_20261028.tar.gz`（md5 `206ce366e6bfe9829e49cd2703d9bb7a`），对应 `D:\Users\daaa\high\08-ADAS新增源码\` |
-| 实测指标 | 输入 55~61 FPS（`source=HDMI`、`copy_mode=5`、`proc≈2.6~2.9ms`）、显示 46~57 FPS、`0x110=0x0012E1FC`、`0x2D0=2`、`0x2A0` 持续增长 |
+| 实测指标 | 输入 55–61 FPS（`source=HDMI`、`copy_mode=5`、`proc≈2.6–2.9ms`）、显示 46–57 FPS、`0x110=0x0012E1FC`、`0x2D0=2`、`0x2A0` 持续增长 |
 
 ## 1. 一键跑（板子断电重来也适用）
 
@@ -49,10 +49,10 @@ powershell -File "D:\Users\daaa\high\_work\ADAS_60HZ_2026-10-28\RUN_标准版_AD
 
 | 寄存器/日志 | 正常值 |
 |---|---|
-| `[capture-rate] input=` | 45~61，`source=HDMI`，`copy_mode=5` |
+| `[capture-rate] input=` | 45–61，`source=HDMI`，`copy_mode=5` |
 | `0x110` | `0x0012E1FC`（1650×750 = 720p60） |
 | `0x2D0` | `0x00000002`（START 生效） |
-| `0x2A0` | 每秒 +50~60 持续增长 |
+| `0x2A0` | 每秒 +50–60 持续增长 |
 | `0x310` | `0x303` / `0x503` / `0x603`（均表示 HDMI 有源） |
 | HUD | `输入 xx FPS / 显示 xx FPS`，ADAS 面板 + 三格车道条 + 灯条 |
 
@@ -61,7 +61,7 @@ powershell -File "D:\Users\daaa\high\_work\ADAS_60HZ_2026-10-28\RUN_标准版_AD
 | 现象 | 处理 |
 |---|---|
 | 画面全黑 / 没画面 | `nohup sh /userdata/hs_tools/plain_start.sh > /tmp/ps.log 2>&1 &`，等 40 秒 |
-| `input=1~5`（很卡） | 同上（只重启 app，**不要** unbind/bind） |
+| `input=1–5`（很卡） | 同上（只重启 app，**不要** unbind/bind） |
 | `input=121` + 拉丝 | 显示器 2 被切成 1080p：`setdisp.ps1 -DisplayIndex 2 -Width 1280 -Height 720 -Hz 60` |
 | `0x310=0x500/0x700`（源变 FMC/Fiber） | 干净重启板子 + 重烧位流（脚本重跑一次） |
 | 板端 `gcc: inner compiler error` / app 段错误 | 内存被写坏：`echo b > /proc/sysrq-trigger` 硬重启 → 重跑脚本 |

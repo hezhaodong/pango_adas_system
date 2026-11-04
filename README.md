@@ -9,7 +9,7 @@
 
 **这是什么**：紫光同创 PG2L50H FPGA + 瑞芯微 RK3568 的软硬协同 ADAS 演示系统。
 笔记本 HDMI → MES-40P-HDMI 子卡 → FPGA（720p60 采集、RGB565、异步 FIFO）→ **PCIe Gen2 ×2** → RK3568（NPU 跑 YOLO/车牌/红绿灯 + 我们的 ADAS 决策与叠加）→ 底板 HDMI OUT → 显示器。
-实测：**输入约 60 FPS（58~61 抖动）、单帧处理约 4.1 ms（含采集端 256 px 回卷纠偏；纠偏前 2.6~3.3 ms）、显示 46~57 FPS（全功能 ADAS 叠加时约 32 FPS）**。
+实测：**输入约 60 FPS（58–61 抖动）、单帧处理约 4.1 ms（含采集端 256 px 回卷纠偏；纠偏前 2.6–3.3 ms）、显示 46–57 FPS（全功能 ADAS 叠加时约 32 FPS）**。
 
 **一条命令跑通**（板子已上电、两根 USB 已插、显示器接着底板 HDMI OUT）：
 
@@ -94,10 +94,10 @@ high_FINAL_2026-10-28\
 
 | 位置 | 正常值 |
 |---|---|
-| `/tmp/rc.log` 的 `[capture-rate]` | `input=45~61 source=HDMI copy_mode=5 proc_avg_us≈2600~3300` |
+| `/tmp/rc.log` 的 `[capture-rate]` | `input=45–61 source=HDMI copy_mode=5 proc_avg_us≈2600–3300` |
 | 寄存器 `0x110` | `0x0012E1FC`（=1650×750，720p60 锁定） |
 | 寄存器 `0x2D0` | `0x00000002`（START 已生效） |
-| 寄存器 `0x2A0` | 每秒 +50~60，持续增长 |
+| 寄存器 `0x2A0` | 每秒 +50–60，持续增长 |
 | 寄存器 `0x310` | `0x303 / 0x503 / 0x603`（都表示 HDMI 有源） |
 | HUD | 左上角 `输入 xx FPS / 显示 xx FPS`；ADAS 面板 + 三格车道条 + LED 灯条 |
 
@@ -110,7 +110,7 @@ high_FINAL_2026-10-28\
 | 现象 | 处理 |
 |---|---|
 | 全黑 / 没画面 | `nohup sh /userdata/hs_tools/plain_start.sh > /tmp/ps.log 2>&1 &`，等 40 秒 |
-| `input=1~5` 很卡 | 同上；**不要** unbind/bind |
+| `input=1–5` 很卡 | 同上；**不要** unbind/bind |
 | 画面拉丝且 `input=121` | 显示器 2 被切成 1080p：`run\setdisp.ps1 -DisplayIndex 2 -Width 1280 -Height 720 -Hz 60` |
 | `0x310=0x500/0x700` | 重跑一次一键脚本（干净重烧 + 重启 app） |
 | 板端 `gcc` 报 inner compiler error / app 段错误 | 内存被 DMA 写坏：`echo b > /proc/sysrq-trigger` 硬重启后重跑脚本 |
@@ -150,7 +150,7 @@ sh /userdata/hs_tools/adas_build3.sh          # 会先按 *.adas.bak 还原 pris
    流程：compile -top_module hdmi_loop → synthesize → dev_map → pnr → report_timing → gen_bit_stream
 4) 产物 generate_bitstream\hdmi_loop.sbit ≈ 2,113,704 B，用 run\flash_baseline.tcl 改路径即可烧
 ```
-> 说明：`disp_prep.v` / `med9_28ce.v` / `img_proc_pipeline` 系列是**预处理 IP**（灰度/去噪/边缘/二值/YCbCr/ROI/帧差）。当前冻结位流中 `u_img_proc` 已综合，但其输入取自 OV5640 DVP 接口；本演示链路只接 HDMI（`VIDEO_SOURCE=1`）且显示通路直通，因此预处理结果只经 PIO 0x200~0x208 暴露、不上屏。若要在 HDMI 通路上启用，需把 `disp_prep` 插回 `v_src_clk` 域后重编位流。
+> 说明：`disp_prep.v` / `med9_28ce.v` / `img_proc_pipeline` 系列是**预处理 IP**（灰度/去噪/边缘/二值/YCbCr/ROI/帧差）。当前冻结位流中 `u_img_proc` 已综合，但其输入取自 OV5640 DVP 接口；本演示链路只接 HDMI（`VIDEO_SOURCE=1`）且显示通路直通，因此预处理结果只经 PIO 0x200–0x208 暴露、不上屏。若要在 HDMI 通路上启用，需把 `disp_prep` 插回 `v_src_clk` 域后重编位流。
 
 ---
 

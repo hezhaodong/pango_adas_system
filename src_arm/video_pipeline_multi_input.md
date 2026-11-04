@@ -86,7 +86,7 @@ void pioWriteReg(unsigned int byteOffset, unsigned int data) {
 | 位 | 名称 | 含义 |
 |----|------|------|
 | bit0 | `frame_done` | 1=FPGA 刚完成一帧 DMA 写入 |
-| bit2:1 | `buffer_index` | DMA 槽号 0~3 |
+| bit2:1 | `buffer_index` | DMA 槽号 0–3 |
 | bit3 | `source` | 该帧来源：0=FMC, 1=HDMI |
 | bit15:8 | `epoch` | 该帧对应的输入源切换代号 |
 
@@ -190,7 +190,7 @@ bool PcieDevice::setFpgaInputSource(FpgaInputSource source)
 
 **为什么需要 retry posted write**：ARM 的 store buffer 对于 MMIO 区域可能不保证写入顺序。写 `0x300` 后立即读 `0x310`，可能读到的是"写还在路上"时的旧值。`__sync_synchronize()` 保证写已完成，但如果 PCIe fabric 里有对 BAR0 写的缓冲，ARm 读 `0x310` 时仍然可能看到旧值。所以加一次 retry——再写一次、再读一次——确保 FPGA 确实收到了请求。
 
-**为什么超时 250ms**：Gen1 PCIe 下 DMA 传输 1.84MB 比 Gen2 慢，加上下一个 VSYNC 要等最多 ~17ms。250ms 是 Gen1 最慢情况下的安全余量。超时后必须回滚——不然 ARM 认为切了 HDMI 但 FPGA 还在 FMC，后续所有帧的 source 字段都不对，epoch 也对不上，整个系统进入不一致状态。
+**为什么超时 250ms**：Gen1 PCIe 下 DMA 传输 1.84MB 比 Gen2 慢，加上下一个 VSYNC 要等最多 –17ms。250ms 是 Gen1 最慢情况下的安全余量。超时后必须回滚——不然 ARM 认为切了 HDMI 但 FPGA 还在 FMC，后续所有帧的 source 字段都不对，epoch 也对不上，整个系统进入不一致状态。
 
 ### 3.4 UI 侧
 
@@ -278,8 +278,8 @@ if (isHdmi) {
 
 | | HDMI | FMC |
 |------|------|------|
-| DMA方式 | mmap 零拷贝（指针传递，~0ms） | memcpy 1.84MB（~27ms） |
-| 帧率上限 | 60fps（受 FPGA 60Hz 输入限制） | ~38fps（受 memcpy 限制） |
+| DMA方式 | mmap 零拷贝（指针传递，–0ms） | memcpy 1.84MB（–27ms） |
+| 帧率上限 | 60fps（受 FPGA 60Hz 输入限制） | –38fps（受 memcpy 限制） |
 | `pcie_tx_fun` VS对齐 | `VS_FRAME_REALIGN=0`（保持连续 720 DMA burst） | `VS_FRAME_REALIGN=1`（每次 VS 重新对齐行计数） |
 | 0x140 槽号来源 | 当次完成脉冲 `r_dma_index` | `r_dma_index_d0`（晚一拍） |
 | 接缝修正 | 不需要 | 需要（FMC 摄像头存在跨行偏移） |

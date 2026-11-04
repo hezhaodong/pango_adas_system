@@ -1,4 +1,4 @@
-d62014cd988f927e5d7697c11f2e7caa  README.md
+e415358b42b01b32676bd23d79b95815  README.md
 864b1435bd1264677329a22a914cfcb0  文件说明.txt
 d8d598e3441059748356e6248333ee23  board/adas_build3.sh
 ce7bee31433fb76b4c26ebcfc2f715a9  board/adas_keys.sh
@@ -7,12 +7,12 @@ d1a970b502700dca18d8e406de36df9d  board/plain_start.sh
 35e2f8a80f70f03e8ed54435e6d49254  board/regwrite.c
 6f72c218c1448d1ffc2d69f69c3590d6  board/start_60.sh
 0e9922f0c114f8f08e3d025c5154d638  board/verify.sh
-55a142b125d0b3a45dce3c5a7602f6e2  docs/ADAS_60HZ_2026-10-28.md
-63cb5431a88edaaee8e31de4477518a2  docs/ADAS叠加偏移修复_2026-11-01.md
-f6132ef6ed3f98f9a715da77692d9120  docs/README_标准版.md
-64b4345bd50e5e69b8e8eb0c5ae83d92  docs/RUNBOOK_BASELINE.md
-64b4345bd50e5e69b8e8eb0c5ae83d92  docs/基础跑通版_RUNBOOK.md
-e62033daba7b9244ca54e28be35e329d  docs/赛题三_完成度评估与演示视频脚本_2026-10-28.md
+dfb8457a276cf8b1bfec1e26bd1521d0  docs/ADAS_60HZ_2026-10-28.md
+406fe58aa66ee9d083dd2a73d853fe80  docs/ADAS叠加偏移修复_2026-11-01.md
+bad6b1b3537ac0cc4e758f5169a706bf  docs/README_标准版.md
+07ee09bfea43fa1dfc54d50eeddf3450  docs/RUNBOOK_BASELINE.md
+07ee09bfea43fa1dfc54d50eeddf3450  docs/基础跑通版_RUNBOOK.md
+9d2c1bbe5fd482403ec87d707e0a9655  docs/赛题三_完成度评估与演示视频脚本_2026-10-28.md
 69023388d8774c8241cf940ded2e652c  log/cfg.log
 bd11d1f8e1eb646712428011589929f8  log/configuration.log
 28e70fcaa1c5c13e1fb042b7d932baaf  log/js.log
@@ -67,7 +67,7 @@ f20b3b0550154645a1be193f247ea33f  src_arm/IP_CAMERA_USAGE.md
 caf9e3d395c916a3da0b597e5081c5e1  src_arm/LANE_CENTER_POINT_TRIAL.md
 3a0e12ccfc1460ed23fe75c3f6c737e4  src_arm/LANE_DEPARTURE.md
 0086f06624111988c031a31c40bdcb0c  src_arm/LANE_DIRECTION_RED_YELLOW_COMPARE.md
-8e4c89673638dd12b789dc79bcb6bfed  src_arm/LANE_TRIANGLE_ROI_TRIAL.md
+01c719fe5a949ed0c8238f8b50d16e68  src_arm/LANE_TRIANGLE_ROI_TRIAL.md
 ad13203dd8719df6847dfccae2a87dc1  src_arm/LPR_BLUESPECIAL_BATCH_TEST.md
 e544617008d597bc5adb797d5440d362  src_arm/Makefile
 73bda14ffeabfa5f1d04be40cb8083df  src_arm/Makefile.codex_check.Release
@@ -140,8 +140,8 @@ f31cf8f27bd411d7c9f42ff092017ab9  src_arm/traffic_detector.h
 05c3964be6011fac9757ac24ddee8142  src_arm/traffic_worker.h
 f38b69d40248f5c471147f011002df49  src_arm/video_frame_widget.cpp
 19a7cf8b1cd7902cec0a8bb56ba7bbe6  src_arm/video_frame_widget.h
-41e495e75db45bef122aaa22c9876962  src_arm/video_pipeline_multi_input.md
-5ba9184fa2e5000be56b9b55acd4029c  src_arm/video_pipeline_technical_doc.md
+641f6565b33d95a7627250b680c5f19b  src_arm/video_pipeline_multi_input.md
+773462dd8d1c9d671d03eeb4193165fc  src_arm/video_pipeline_technical_doc.md
 4665da3de90d7c0dfb91efc99f66013c  src_arm/wifi_control.cpp
 9d0d76747b29a7e7d6ef8be5df22769d  src_arm/wifi_control.h
 e875d9bfae17c9666f8ff166b4485714  src_arm/wifi_discovery.cpp

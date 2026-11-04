@@ -2,7 +2,7 @@
 
 这是**唯一保底可用**的版本：学长的原版 ARM 程序 + 原版风格 RTL 重编位流，
 笔记本显示器 2 的画面经 子卡 → FPGA → PCIe → RK3568 → 底板 HDMI OUT → 显示器，
-实测 `输入 60.0 FPS / 显示 59.9 FPS`；按 `6` 出学长自带 AI 检测（car 94%/84%/67%，33~37 FPS）。
+实测 `输入 60.0 FPS / 显示 59.9 FPS`；按 `6` 出学长自带 AI 检测（car 94%/84%/67%，33–37 FPS）。
 
 ## 0. 冻结件（缺一不可，已 md5 校验）
 
@@ -36,7 +36,7 @@ powershell -File D:\Users\daaa\high\_work\RUN_基础跑通版.ps1 -Shot
    跑 `cdt_cfg_shell.exe -file D:/Users/daaa/high/_work/flash_baseline.tcl`
    → 必须看到 `The done bit is 1` + `PROGRAM_OK`。
 4. 板端 `nohup sh /userdata/hs_tools/start_demo.sh > /tmp/sd.log 2>&1 &`，等 60 秒。
-5. 判读：`[capture-rate] input=58~61 source=HDMI` → PASS；
+5. 判读：`[capture-rate] input=58–61 source=HDMI` → PASS；
    若 `input<45`，只跑 `/userdata/hs_tools/plain_start.sh`（**只重启 app，绝不动 PCIe**），再判。
 6. `-Shot` 时用 `ffmpeg kmsgrab` 抓图并 `rkget.py` 下载到 `_shots\`。
 
@@ -67,7 +67,7 @@ powershell -File D:\Users\daaa\high\_work\RUN_基础跑通版.ps1 -Shot
 | 现象 | 处理 |
 |---|---|
 | 显示器黑、`pgrep -c camera_capture`=0 | `sh /userdata/hs_tools/plain_start.sh`（只重启 app） |
-| `input=1~4`、画面仍正确 | 同上（只重启 app），**不要** unbind/bind |
+| `input=1–4`、画面仍正确 | 同上（只重启 app），**不要** unbind/bind |
 | `input=121` + 拉丝/黑 | 显示器 2 被切成 1080p → 重新锁 `1280x720@60`，关掉全屏播放 |
 | 板端 `gcc` 报 ICE / app 随机崩 | 板子内存被 DMA 写坏 → `echo b > /proc/sysrq-trigger` 强制重启，再走第 2 节 |
 | JTAG `No devices detected` | 换 USB 口 + 板子断电上电 + 重启 cdt_js |
